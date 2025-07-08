@@ -5,7 +5,7 @@ import aboutImage2 from "../assets/Images/home2.jpg";
 import aboutImage3 from "../assets/Images/home3.jpg";
 import aboutImage4 from "../assets/Images/home4.jpg";
 import { useNavigate } from "react-router-dom";
-useNavigate
+useNavigate;
 
 const MainAbout = () => {
   const navigate = useNavigate();
@@ -68,7 +68,7 @@ const MainAbout = () => {
             <img
               src={aboutImage2}
               alt="الطين الأبيض"
-              className="rounded-xl w-full max-w-xs shadow-md h-48 sm:h-56 md:h-64 object-cover"
+              className="rounded-xl    max-w-xs shadow-md  sm:h-56 md:h-64 object-cover"
             />
             <h3
               className="text-lg sm:text-xl md:text-2xl font-semibold"
@@ -76,7 +76,10 @@ const MainAbout = () => {
             >
               الطين الأبيض
             </h3>
-            <p className="text-sm sm:text-base" style={{ fontFamily: "arabic" }}>
+            <p
+              className="text-sm sm:text-base"
+              style={{ fontFamily: "arabic" }}
+            >
               مناسب للبشرة الحساسة يوحد لون البشرة ينظف المسام بعمق
             </p>
           </div>
@@ -85,16 +88,20 @@ const MainAbout = () => {
             <img
               src={aboutImage1}
               alt="التبريمة المغربية"
-              className="rounded-xl w-full max-w-xs shadow-md h-48 sm:h-56 md:h-64 object-cover"
+              className="rounded-xl    max-w-xs shadow-md  sm:h-56 md:h-64 object-cover"
             />
             <h3
               className="text-lg sm:text-xl md:text-2xl font-semibold"
               style={{ fontFamily: "arabic" }}
             >
-              التبريمة المغربية
+              النيلة المغربية{" "}
             </h3>
-            <p className="text-sm sm:text-base" style={{ fontFamily: "arabic" }}>
-              تفتح الجسم وتمنحه إشراقة ترطب وتنعم البشرة تقشر الجلد الميت
+            <p
+              className="text-sm text-center w-90 sm:text-base"
+              style={{ fontFamily: "arabic" }}
+            >
+              تفتح وتوحد لون البشرة تمنح نعومة فورية تقلل من آثار التصبغات
+              والبقع الداكنة مناسبة للمناطق الحساسة
             </p>
           </div>
 
@@ -102,7 +109,7 @@ const MainAbout = () => {
             <img
               src={aboutImage4}
               alt="الصابون البلدي"
-              className="rounded-xl w-full max-w-xs shadow-md h-48 sm:h-56 md:h-64 object-cover"
+              className="rounded-xl   max-w-xs shadow-md  sm:h-56 md:h-64 object-cover"
             />
             <h3
               className="text-lg sm:text-xl md:text-2xl font-semibold"
@@ -110,27 +117,32 @@ const MainAbout = () => {
             >
               الصابون البلدي
             </h3>
-            <p className="text-sm sm:text-base" style={{ fontFamily: "arabic" }}>
-              يترك البشرة ناعمة ومرطبة يلين الجلد لتسهيل إزالة الخلايا
-              الميتة يرطب وينظف بعمق
+            <p
+              className="text-sm sm:text-base"
+              style={{ fontFamily: "arabic" }}
+            >
+              يترك البشرة ناعمة ومرطبة يلين الجلد لتسهيل إزالة الخلايا الميتة
+              يرطب وينظف بعمق
             </p>
           </div>
 
           <div className="flex flex-col gap-3 sm:gap-4 items-center">
             <img
               src={aboutImage3}
-              alt="الطين المغربي"
-              className="rounded-xl w-full max-w-xs shadow-md h-48 sm:h-56 md:h-64 object-cover"
+              alt="التبريمة المغربية"
+              className="rounded-xl    max-w-xs shadow-md sm:h-56 md:h-64 object-cover"
             />
             <h3
               className="text-lg sm:text-xl md:text-2xl font-semibold"
               style={{ fontFamily: "arabic" }}
             >
-              الغاسول المغربي
+              التبريمة المغربية
             </h3>
-            <p className="text-sm sm:text-base" style={{ fontFamily: "arabic" }}>
-              ينظف البشرة بعمق، يمتص الزيوت الزائدة ويغذي الجلد بالمعادن
-              الطبيعية.
+            <p
+              className="text-sm sm:text-base"
+              style={{ fontFamily: "arabic" }}
+            >
+              تفتح الجسم وتمنحه إشراقة ترطب وتنعم البشرة تقشر الجلد الميت
             </p>
           </div>
         </div>

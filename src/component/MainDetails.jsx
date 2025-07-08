@@ -96,7 +96,7 @@ const MainDetails = ({ product, onClose }) => {
             </p>
             <div className="flex gap-4 sm:gap-6 justify-center">
               <a
-                href="tel:+96550350879"
+              onClick={() => (window.location.href = "https://wa.me/96550350879")}
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-[#d4af37] rounded-full flex items-center justify-center hover:bg-[#c19c2e]"
                 target="_blank"
                 rel="noreferrer"

@@ -1,8 +1,8 @@
 import React from "react";
 import bg from "../assets/Images/6.png";
 import Logo from "../assets/Images/logo2.png";
-import img1 from '../assets/Images/téléchargement-removebg-preview.png'
-import img2 from '../assets/Images/téléchargement1-removebg-preview.png'
+import img2 from '../assets/Images/téléchargement-removebg-preview.png'
+import img1 from '../assets/Images/téléchargement1-removebg-preview.png'
 import img3 from '../assets/Images/téléchargement2-removebg-preview.png'
 import img4 from '../assets/Images/téléchargement3-removebg-preview.png'
 import { useNavigate } from "react-router-dom";
@@ -56,7 +56,7 @@ const MainHome = () => {
           المنتجات المميزة
         </h1>
         <div className="max-w-2xl sm:max-w-4xl md:max-w-7xl mx-auto grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-10">
-          {[{ img: img1, title: "الغاسول المغربي" },
+          {[{ img: img1, title: "النيلة المغربية " },
             { img: img2, title: "التبريمة المغربية" },
             { img: img3, title: "الطين الأبيض" },
             { img: img4, title: "الصابون البلدي" }].map((item, i) => (

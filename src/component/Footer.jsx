@@ -158,7 +158,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <div
-                  onClick={() => (window.location.href = "tel:+96550350879")}
+                onClick={() => (window.location.href = "https://wa.me/96550350879")}
                   className="flex items-center gap-3 p-2 sm:p-3 bg-white/30 rounded-lg hover:bg-white/50 transition duration-300 cursor-pointer"
                 >
                   <div className="w-9 h-9 sm:w-10 sm:h-10 bg-[#d4af37] rounded-full flex items-center justify-center">
