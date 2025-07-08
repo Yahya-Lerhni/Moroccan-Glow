@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'myfont';
+  src: url('./assets/Font/Cinzel-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'myfont2';
+  src: url('./assets/Font/Unna-Regular.ttf');
+}
+@font-face {
+  font-family: 'arabic';
+  src: url('./assets/Font/Amiri-Regular.ttf');
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fadeIn {
+  animation: fadeIn 1.2s cubic-bezier(.4,0,.2,1) both;
+}
+#root{
+  padding: 0 !important;
+}
